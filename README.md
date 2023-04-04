@@ -1,15 +1,24 @@
 # x2x LogAnalyzer (aka x2x-la)
 x2x LogAnalyzer is designed to work on the log files produced by xmrig2xdag (x2x) and extract relevant information to improve proxy monitoring.
 
-## How to use ?
+## How to setup XMRig2XDAG ?
 
-- Download & use xmrig2xdag (x2x) : https://github.com/XDagger/xmrig2xdag/releases
-- Setup config.json to generate log
+- Download 'XMRig2XDAG'(x2x) : https://github.com/XDagger/xmrig2xdag/releases
+- Setup config.json to generate log (set proxy.log is a good choice) 
 
 ![image](https://user-images.githubusercontent.com/128682335/229854580-cd949f06-876d-4404-99df-6b531612c53a.png)
 - run 'x2x'
 
-Then copy 'x2x-la' inside x2x folder, and run it !
+## How to use x2x-la ?
+
+- Copy 'x2x-la' executable inside x2x folder
+- run it !
+
+## How to get help ? 
+
+```
+x2x-la --help
+```
 
 ## How to compile ?
 
