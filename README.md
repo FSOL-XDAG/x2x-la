@@ -21,8 +21,12 @@ x2x-la --help
 ```
 
 ## How to compile ?
+Works since Ubuntu 22.04 LTS.
 
 ```
+sudo apt install golang-go 
+git clone https://github.com/FSOL-XDAG/x2x-la.git
+cd x2x-la
 go mod init x2x-la
 go get github.com/fatih/color
 go mod tidy
